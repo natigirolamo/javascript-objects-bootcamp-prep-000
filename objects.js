@@ -1,11 +1,14 @@
-var playslist = {queen: 'dont stop me now'};
+var playlist = {artistName: 'song'};
 
-function updatePlaylist (obj, key, value) {
-  obj [key] = [value]
-  return obj
+function updatePlaylist (playlist, artistName, songTitle){
+  playlist[artistName]=songTitle
 }
-
-
+ function removeFromPlaylist(playlist,artistName){ 
+delete playlist[artistName];
+}
+function removeFromPlaylist(playlist, artistName){
+delete playlist[artistName];
+}
 
 var meals = {};
 
