@@ -1,3 +1,12 @@
+var playslist = {queen: 'dont stop me now'};
+
+function updatePlaylist (obj, key, value) {
+  obj [key] = [value]
+  return obj
+}
+
+
+
 var meals = {};
 
 var meals = new Object ();
